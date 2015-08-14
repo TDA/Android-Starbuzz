@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name=".DrinksCategoryActivity"
+            android:label="@string/title_activity_drinks_category" >
+        </activity>
     </application>
 
 </manifest>
