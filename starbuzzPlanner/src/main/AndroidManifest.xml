@@ -18,7 +18,16 @@
         </activity>
         <activity
             android:name=".DrinksCategoryActivity"
-            android:label="@string/title_activity_drinks_category" >
+            android:label="@string/title_activity_drinks_category"
+            android:parentActivityName=".TopLevelActivity">
+        </activity>
+        <activity
+            android:name=".DrinkActivity"
+            android:label="@string/title_activity_drink"
+            android:parentActivityName=".DrinksCategoryActivity" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.tda.saipc.starbuzz.starbuzzplanner.DrinksCategoryActivity" />
         </activity>
     </application>
 
